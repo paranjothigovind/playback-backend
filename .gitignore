@@ -1,0 +1,12 @@
+node_modules
+!jest.config.js
+*.d.ts
+
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+lambda/ffmpeg-7.1
+old-index.js
+lambda/pydub
+lambda.zip

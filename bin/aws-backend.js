@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cdk = require("aws-cdk-lib");
+const aws_backend_stack_1 = require("../lib/aws-backend-stack");
+const app = new cdk.App();
+new aws_backend_stack_1.AwsBackendStack(app, 'AwsBackendStack', {
+    env: { account: '666520252008', region: 'us-east-1' },
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXdzLWJhY2tlbmQuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhd3MtYmFja2VuZC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFDQSxtQ0FBbUM7QUFDbkMsZ0VBQTJEO0FBRTNELE1BQU0sR0FBRyxHQUFHLElBQUksR0FBRyxDQUFDLEdBQUcsRUFBRSxDQUFDO0FBQzFCLElBQUksbUNBQWUsQ0FBQyxHQUFHLEVBQUUsaUJBQWlCLEVBQUU7SUFDMUMsR0FBRyxFQUFFLEVBQUUsT0FBTyxFQUFFLGNBQWMsRUFBRSxNQUFNLEVBQUUsV0FBVyxFQUFFO0NBQ3RELENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIiMhL3Vzci9iaW4vZW52IG5vZGVcclxuaW1wb3J0ICogYXMgY2RrIGZyb20gJ2F3cy1jZGstbGliJztcclxuaW1wb3J0IHsgQXdzQmFja2VuZFN0YWNrIH0gZnJvbSAnLi4vbGliL2F3cy1iYWNrZW5kLXN0YWNrJztcclxuXHJcbmNvbnN0IGFwcCA9IG5ldyBjZGsuQXBwKCk7XHJcbm5ldyBBd3NCYWNrZW5kU3RhY2soYXBwLCAnQXdzQmFja2VuZFN0YWNrJywge1xyXG4gIGVudjogeyBhY2NvdW50OiAnNjY2NTIwMjUyMDA4JywgcmVnaW9uOiAndXMtZWFzdC0xJyB9LFxyXG59KTsiXX0=
